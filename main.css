@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+header,
+section h2 {
+    font-family: "Bungee", cursive;    
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 /*ESTILO 2*/
 header {
     padding: 16px 0;
@@ -12,10 +21,15 @@ header {
     color: #ecf0f1;
 }
 
+header h1,
+section h2 {
+    font-weight: normal;
+}
+
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 18px;
+    font-size: 18px;    
 }
 
 header nav li a {
@@ -26,7 +40,7 @@ header nav li a {
 /*ESTILO 3*/
 .container {
     max-width: 1280px;
-    width: 100$;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -35,4 +49,48 @@ header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+/*ESTILO 5*/
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*ESTILO 6*/
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+/*ESTILO 7*/
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #182C61;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+/*ESTILO 8*/
+.store-front {
+    margin-right: 32px;
 }
